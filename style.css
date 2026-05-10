@@ -3,7 +3,36 @@
    "how to change link color." */
 
 body {
-  background-color: white;
-  color: black;
+  background-image: url('/img/background.png');
+  background-repeat: tile;
+  color: rgb(0, 0, 0);
   font-family: Verdana;
+}
+
+.main {
+  background-color:whitesmoke;
+  border: 1px solid;
+  border-color:darkgrey;
+  color:#333333;
+  padding: 0px 20px 20px 20px;
+  width: 60%;
+  height:auto;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.nav_bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+
+.nav_list {
+  display: inline;
+  padding: 14px 16px;
 }
